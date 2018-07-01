@@ -149,8 +149,8 @@ a:hover, a:active, a:focus {
 }
 
 .overlay {
-  background: #304352;
-  opacity: 0.8;
+  background: #000000;
+  opacity: 0.7;
   position: absolute;
   width: 100%;
   height: 100vh;
@@ -182,7 +182,7 @@ a:hover, a:active, a:focus {
 .sk-spinner-pulse {
   width: 60px;
   height: 60px;
-  background-color: #e44c65;
+  background-color: #000000;
   border-radius: 100%;
   margin: 40px auto;
   -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
@@ -366,7 +366,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #gallery {
-  background: #ffffff;
+  background: #000000;
 }
 
 #gallery .gallery-thumb {
@@ -397,7 +397,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #about {
-  background: #ffffff;
+  background: #000000;
 }
 
 #about .item {
