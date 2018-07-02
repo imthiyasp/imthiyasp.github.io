@@ -9,7 +9,7 @@ http://www.templatemo.com/tm-493-snapshot
 /* Body 
 ------------------------------------- */
 body {
-    background: #ffffff;   
+    background: #fff;   
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -31,13 +31,14 @@ html {
 -----------------------------------------*/
 
 h1,h2,h3,h4 {
+
   font-weight: 300;
 }
 
 h1 {
   font-size: 3rem;
   line-height: 3rem;
-  letter-spacing: 12px;
+  letter-spacing: 8px;
   text-transform: uppercase;
   padding-bottom: 8px;
 }
@@ -57,7 +58,7 @@ h3 {
 }
 
 p {
-  color: #888;
+  color: #000000;
   font-size: 20px;
   letter-spacing: 1px;
   line-height: 34px;
@@ -65,7 +66,7 @@ p {
 
 #home p,
 #contact p, footer p {
-  color: #cccccc;
+  color: #000000;
 }
 
 .btn {
@@ -75,12 +76,12 @@ p {
 }
 
 .btn:focus {
-  background: #e44c65;
+  background: #000000;
   border-color: transparent;
 }
 
 .btn-success {
-  background: #e44c65;
+  background: #000000;
   font-weight: 300;
   letter-spacing: 2px;
   padding: 14px 32px;
@@ -92,14 +93,14 @@ p {
 }
 
 a {
-  color: #e44c65;
+  color: #000000;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #e44c65;
+  color: #000000;
   outline: none;
 }
 
@@ -149,8 +150,8 @@ a:hover, a:active, a:focus {
 }
 
 .overlay {
-  background: #000000;
-  opacity: 0.7;
+  background: #ffffff;
+  opacity: 0.5;
   position: absolute;
   width: 100%;
   height: 100vh;
@@ -213,14 +214,14 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 .navbar-default {
-  background: #000000;
+  background: #fff;
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.04);
   border: none;
   margin-bottom: 0px !important;
 }
 
 .navbar-default .navbar-brand {
-  color: #cccccc;
+  color: #000000;
   font-size: 22px;
   font-weight: lighter;
   letter-spacing: 2PX;
@@ -228,7 +229,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-nav li a {
-    color: #ccc;
+    color: #666;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -279,23 +280,23 @@ a:hover, a:active, a:focus {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  background-color: #304352;
+  background-color: #000;
 }
 
 .navbar-default .navbar-nav > li a:hover {
-    color: #304352 !important;
+    color: #000 !important;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #777;
+    color: #000;
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #304352;
+    color: #000;
     background-color: transparent;
 }
 
@@ -321,7 +322,7 @@ a:hover, a:active, a:focus {
   .navbar-default .navbar-nav li.active a {
     background: transparent;
     background: none;
-    color: #304352 !important;
+    color: #000 !important;
   }
   .navbar-default .navbar-nav li.active a span:before {
     visibility: visible;
@@ -350,7 +351,7 @@ a:hover, a:active, a:focus {
 }
 
 #home h1 {
-  color: #ffffff;
+  color: #000;
 }
 
 #home .col-md-8 {
@@ -366,7 +367,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #gallery {
-  background: #000000;
+  background: #fff;
 }
 
 #gallery .gallery-thumb {
@@ -397,7 +398,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #about {
-  background: #000000;
+  background: #fff;
 }
 
 #about .item {
@@ -494,15 +495,14 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #contact, footer {
-  background: #000;
-  color: #fff;
+  background: #fff;
 }
 
 #contact .form-control {
   background: transparent;
   box-shadow: none;
-  border: 1px solid #333;
-  color: #556d82;
+  border: 1px solid #ccc;
+  color: #000;
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 14px;
@@ -510,8 +510,8 @@ a:hover, a:active, a:focus {
 }
 
 #contact .form-control:focus {
-  border-color: #fff;
-  color: #ffffff;
+  border-color: #000;
+  color: #000000;
 }
 
 #contact input {
@@ -519,15 +519,15 @@ a:hover, a:active, a:focus {
 }
 
 #contact input[type="submit"] {
-  background: #fff;
+  background: #000;
   border:none;
-  color: #000;
+  color: #fff;
   font-weight: 400;
   letter-spacing: 1px;
 }
 
 #contact input[type="submit"]:hover {
-  background: #304352;
+  background: #666;
   color: #ffffff;
 }
 
@@ -559,8 +559,8 @@ footer {
 
 .social-icon li a {
   border-radius: 4px;
-  border: 1px solid #000;
-  color: #ffffff;
+  border: 1px solid #fff;
+  color: #000000;
   font-size: 20px;
   width: 45px;
   height: 45px;
@@ -572,9 +572,9 @@ footer {
 
 .social-icon li a:hover {
     border-radius: 4px;
-  border: 1px solid #ccc;
-  background: #000000;
-  color: #fff;
+  border: 1px solid #000;
+  background: #fff;
+  color: #000;
 }
 
 
@@ -650,7 +650,7 @@ footer {
 @media (max-width: 650px) {
 
   h1 {
-    font-size: 1.6rem;
+    font-size: 46px;
   }
 
   p {
