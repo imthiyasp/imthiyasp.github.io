@@ -128,7 +128,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .section-title {
-  padding-top: 82px;
+  padding-top: 62px;
 }
 
 #about .section-title h1 {
@@ -139,8 +139,8 @@ a:hover, a:active, a:focus {
 #about,
 #gallery,
 #contact {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   position: relative;
 }
 
@@ -243,7 +243,7 @@ a:hover, a:active, a:focus {
 .navbar-default .navbar-nav li a span {
   position: relative;
   display: block;
-  padding-bottom: 2px;
+  padding-bottom: 10px;
 }
 
 .navbar-default .navbar-nav li a span:before {
