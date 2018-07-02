@@ -359,7 +359,25 @@ a:hover, a:active, a:focus {
 }
 
 
+.c-main-header__logo {
+    border: none;
+    float: center;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
 
+.c-avatar img {
+    height: 60px;
+    width: 60px;
+      margin-top: 25px;
+}
+img {
+    border-style: none;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 
 /*---------------------------------------
@@ -486,7 +504,17 @@ a:hover, a:active, a:focus {
   color: #666666;
 }
 
-
+.project__used__item {
+    display: inline-block;
+    margin: 3px 3px 3px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: .85rem;
+    padding: 2px 7px;
+    border-radius: 3px;
+    color: #000;
+    border: 1px solid #000;
+    background: 0 0;
+}
 
 
 
@@ -647,7 +675,7 @@ footer {
 
 
 
-@media (max-width: 650px) {
+@media (max-width: 60px) {
 
   h1 {
     font-size: 46px;
