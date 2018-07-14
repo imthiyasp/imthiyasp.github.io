@@ -243,7 +243,7 @@ a:hover, a:active, a:focus {
 .navbar-default .navbar-nav li a span {
   position: relative;
   display: block;
-  padding-bottom: 10px;
+  padding-bottom: 3px;
 }
 
 .navbar-default .navbar-nav li a span:before {
@@ -506,14 +506,15 @@ img {
 
 .project__used__item {
     display: inline-block;
-    margin: 3px 3px 3px 0;
+    margin: 3px 3px 3px 3px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: .85rem;
-    padding: 2px 7px;
-    border-radius: 3px;
+    padding: 5px 10px;
+    border-radius: 15px;
     color: #000;
     border: 1px solid #000;
     background: 0 0;
+    margin-top: 20px;
 }
 
 
@@ -697,7 +698,3 @@ footer {
   }
 
 }
-
-
-
-
